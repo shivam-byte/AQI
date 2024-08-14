@@ -6,13 +6,14 @@ setup(
   version = '0.0.1',
   author = 'shivam',
   author_email = 'shivam4806@gmail.com',
-  packages = find_packages(),
+  package_dir = {'':'src'},
+  packages = find_packages(where = 'src'),
   install_requires = [
     'pandas',
     'numpy',
     'matplotlib',
     'seaborn',
-    scikit-learn'
+    'scikit-learn'
   ]
 
 ) 

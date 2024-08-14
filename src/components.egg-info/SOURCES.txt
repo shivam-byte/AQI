@@ -1,0 +1,7 @@
+setup.py
+src/components/__init__.py
+src/components.egg-info/PKG-INFO
+src/components.egg-info/SOURCES.txt
+src/components.egg-info/dependency_links.txt
+src/components.egg-info/requires.txt
+src/components.egg-info/top_level.txt
